@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'He luu chị em pé Mai Ank!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
+        text: 'tui có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: './img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -96,11 +96,11 @@ $('#yes').click(function() {
     var audio = new Audio('./sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Nói cho tui lí do cậu thích tui đi :vvvv',
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Tại tui chân thành chứ gifii?'>",
         background: '#fff url("./img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -109,12 +109,12 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Mai gửi :V:<<",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho tớ <3'
+        confirmButtonText: 'Gửi cho tui <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
