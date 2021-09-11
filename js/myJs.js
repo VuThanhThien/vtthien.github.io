@@ -121,8 +121,8 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("./img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Tui biết mà ^^ Yêu cậu 3000',
+                text: "Coi chừng hết dịch là tui bắt cóc đó :v Còn giờ thì inbox cho tui ikk",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/exameen.dev/';
