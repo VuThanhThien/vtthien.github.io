@@ -100,7 +100,7 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Tại tui chân thành chứ gifii?'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Tại tui chân thành chứ  gìiiii ?'>",
         background: '#fff url("./img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
